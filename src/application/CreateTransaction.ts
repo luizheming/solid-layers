@@ -1,6 +1,5 @@
-import pgp from 'pg-promise';
-import TransactionRepository from '../domain/repository/TransactionRepository';
 import Transaction from '../domain/entity/Transaction';
+import TransactionRepository from '../domain/repository/TransactionRepository';
 
 export default class CreateTransaction {
   constructor(readonly transactionRepository: TransactionRepository) {
